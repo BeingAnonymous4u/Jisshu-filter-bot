@@ -38,14 +38,14 @@ auth_channel = environ.get('AUTH_CHANNEL', '')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/iMdbChatRoom') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/HowToOpenMoviesLink/8")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HowToOpenMoviesLink/8")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HowToOpenMoviesLink/8")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "5b9f5ccfa1e706afc93ec6dbf6e4cd236c00d2b1")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'urlstox.com')
