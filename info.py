@@ -53,7 +53,7 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "4281212094784aa4d512d70c4aafa61a
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'onepageyam.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "5ecd600442edab3c850eb6eceed0acfa9f8eb6b5")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'modijiurl.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "3600"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -78,13 +78,13 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
+FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '216000'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
 IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', True) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
 PORT = environ.get('PORT', '5000')
-MAX_BTN = int(environ.get('MAX_BTN', '8'))
-AUTO_DELETE = is_enabled('AUTO_DELETE', False)
+MAX_BTN = int(environ.get('MAX_BTN', '10'))
+AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
 IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
