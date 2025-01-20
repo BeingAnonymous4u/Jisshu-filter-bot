@@ -1,6 +1,6 @@
 import os
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {}, \nMy name is <a href="https://t.me/UltraXRobot">Ⓚ︎Ⓔ︎Ⓔ︎Ⓡ︎Ⓣ︎Ⓗ︎Ⓨ︎🍟</a>, I'm an auto filter bot, I can give you movies just add me to your group as admin and see my power 😎"""
+    START_TXT = """Hᴇʟʟᴏ {} 😇, \n•I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ - Sᴇʀɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ ᴀʟꜱᴏ ᴡᴏʀᴋ ɪɴ ᴩᴍ😌⚡️"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
