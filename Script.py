@@ -200,7 +200,6 @@ User - {}"""
 
 ⚡️ ɴᴀᴍᴇ:- {} [ <code>{}</code> ] 
 📆 ᴅᴀᴛᴇ:- <code>{} </code></b>
-
 #verified_{}_completed"""
 
 
@@ -258,7 +257,7 @@ User - {}"""
 
     FREE_TXT = """<b>👋 ʜᴇʏ {}
     
-🎁 <u>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</u>
+🎁 <u>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ</u> :
 
  ❏ 𝟶𝟷𝟻₹    ➠    𝟶𝟷 ᴡᴇᴇᴋꜱ
  ❏ 𝟶𝟹𝟿₹    ➠    𝟶𝟷 ᴍᴏɴᴛʜ
@@ -275,7 +274,7 @@ User - {}"""
 ‼️ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
 </b>"""
 
-    ADMIN_CMD_TXT = """<b><blockquote>
+    ADMIN_CMD_TXT = """<b>
 -------------User Premium------------
 ➩ /add_premium {user ID} {Times} - Add a premium user
 ➩ /remove_premium {user ID} - Remove a premium user
@@ -295,9 +294,9 @@ User - {}"""
 -------------Top Trending------------
 ➩ /setlist {Mirzapur, Money Heist} - <a href=https://t.me/Jisshu_developer/10>Explain</a>
 ➩ /clearlist - Clear all lists
-</blockquote></b>"""
+</b>"""
 
-    ADMIN_CMD_TXT2 = """<b><blockquote>
+    ADMIN_CMD_TXT2 = """<b>
 --------------Index File--------------
 ➩ /index - Index all files
 --------------Leave Link--------------
@@ -311,9 +310,9 @@ User - {}"""
 ➩ /broadcast - Broadcast a message to all users
 ➩ /grp_broadcast - Broadcast a message to all connected groups
 
-</blockquote></b>"""
+</b>"""
     
-    GROUP_TEXT = """<b><blockquote>
+    GROUP_TEXT = """<b>
  --------------Set Verify-------------
 /set_verify {{website link}} {{website api}}
 /set_verify_2 {{website link}} {{website api}}
@@ -336,8 +335,7 @@ User - {}"""
 /set_log {{log channel id}}
 ---------------------------------------
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
-ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
-</blockquote>
+ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ\n
 Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs😇</b>"""
 
     SOURCE_TXT = """<b>
@@ -346,7 +344,7 @@ NOTE:
 
 developer : Mr.Jisshu
 </b>""" 
-    GROUP_C_TEXT = """<b><blockquote>
+    GROUP_C_TEXT = """<b>
  --------------Set Verify-------------
 /set_verify {website link} {website api}
 /set_verify_2 {website link} {website api}
@@ -372,5 +370,5 @@ developer : Mr.Jisshu
 ---------------------------------------
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
-</blockquote>
+
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/AllFilesRobot">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/IM_JISSHU">ᴀᴅᴍɪɴ</a></b>"""
