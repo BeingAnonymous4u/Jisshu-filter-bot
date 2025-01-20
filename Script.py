@@ -150,7 +150,7 @@ User - {}"""
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ʙᴜʏɪɴɢ ↡↡↡
 </b>"""
     
-    VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {} {},
+    VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {} 😇,
 
 ‣ <b>English</b>:-
 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ Tᴏᴅᴀʏ.
@@ -204,7 +204,7 @@ Sᴇᴇ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ
 
 💶 ᴄʜᴇᴄᴋ /plan ᴛᴏ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ</b>"""
 
-    THIRDT_VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {},
+    THIRDT_VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {}😌,
     
 ‣ <b>English</b>:-
 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ Tᴏᴅᴀʏ.
