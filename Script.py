@@ -39,10 +39,10 @@ class script(object):
 </b>"""
     
 
-    ABOUT_TEXT = """🥱 My Name : Keerthy ♡ミ
+    ABOUT_TEXT = """<b>🥱 My Name : Keerthy ♡ミ
 Library : Pyrogram 2.0.106
 Language : Python 
-Database : Mongodb"""    
+Database : Mongodb</b>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
@@ -301,12 +301,11 @@ Sᴇᴇ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ
  ❏ 𝟷𝟿𝟿₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹𝟼𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-💳 ᴜᴘɪ ɪᴅ [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]\n <code>anewshkumarankitpanchalpro-1@okaxis</code> 
+💳 ᴜᴘɪ ɪᴅ [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ] 👇🏻\n <code>anewshkumarankitpanchalpro-1@okaxis</code> 
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
-
-‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
-‼️ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
+👨‍💻 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
+⏰ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
 </b>"""
 
     ADMIN_CMD_TXT = """<b>
