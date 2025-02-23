@@ -1,6 +1,10 @@
 import os
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {} 😇, \n•I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ - Sᴇʀɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ ᴀʟꜱᴏ ᴡᴏʀᴋ ɪɴ ᴩᴍ😌⚡️</b>"""
+    START_TXT = """<b>Hey 👋 {} 🤩
+
+🍿 Wᴇʟᴄᴏᴍᴇ Tᴏ Tʜᴇ Wᴏʀʟᴅ's Cᴏᴏʟᴇsᴛ Sᴇᴀʀᴄʜ Eɴɢɪɴᴇ!
+
+Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href='https://www.google.com/'>Google</b></a> Spelling..!!</b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
