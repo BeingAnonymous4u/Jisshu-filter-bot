@@ -1469,11 +1469,11 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
                 InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
-                InlineKeyboardButton("Nᴏ Nᴏʀᴇ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ", user_id=ADMINS[0])
+                InlineKeyboardButton("Nᴏ Nᴏʀᴇ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ", callback_data="pages")
             ])
     else:
         btn.insert(0,[
-            InlineKeyboardButton("Nᴏ Mᴏʀᴇ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ", user_id=ADMINS[0])
+            InlineKeyboardButton("Nᴏ Mᴏʀᴇ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ", callback_data="pages")
         ])
                              
     if spoll:
