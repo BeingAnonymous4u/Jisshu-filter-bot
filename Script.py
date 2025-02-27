@@ -115,7 +115,13 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}</b>"""
+    FILE_CAPTION = """<b><u>Fɪʟᴇɴᴀᴍᴇ</u> : </b><b>@hdhindibackup</b><b>  | {file_name}
+    
+</b><b><u>FɪʟᴇSize</u> : {file_size}
+
+</b><b><u>𝗟𝗲𝘁𝗲𝘀𝘁 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 </u> 
+👉 </b><b>https://t.me/IpopcornsMovies</b><b>
+👉 </b><b>https://t.me/IpopcornsMovies</b>"""
     
 
     ALRT_TXT = """Search for yourself !"""
