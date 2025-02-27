@@ -1418,7 +1418,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         search = message.text
         chat_id = message.chat.id
         settings = await get_settings(chat_id , pm_mode=pm_mode)
-        searching_msg = await msg.reply_text(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
+        searching_msg = await msg.reply_text(f'Searching For {search} 🔍')
         files, offset, total_results = await get_search_results(search)
         await searching_msg.delete()
         if not files:
@@ -1530,7 +1530,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             **locals()
         )
     else:
-        cap = f"<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}</b>"
+        cap = f"<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ <code>{search}</code></b>"
 
     ads, ads_name, _ = await mdb.get_advirtisment()
     ads_text = ""
