@@ -85,7 +85,7 @@ BOT WORKING PROPERLY 🔥"""
 
 » ᴜᴘᴛɪᴍᴇ - <code>{}</code>
 » ʀᴀᴍ - <code>{}%</code>
-» ᴄᴘᴜ - <code>{}%</code></b>""""
+» ᴄᴘᴜ - <code>{}%</code></b>"""
 
     NEW_USER_TXT = """<b>#New_User {}
 
