@@ -70,22 +70,22 @@ BOT WORKING PROPERLY 🔥"""
 </b>"""
         
     
-    STATUS_TXT = """<b>⍟────[ 𝙱𝙾𝚃 𝚂𝚃𝙰𝚃𝚄𝚂 ]────⍟
+    STATUS_TXT = """<b><u>💐 ᴅᴀᴛᴀʙᴀsᴇ 1 💐</u>
 
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: - <code>{} / {}</code>
+» ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
+» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
+» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝟸
+<u>♻️ ᴅᴀᴛᴀʙᴀsᴇ 2 ♻️</u>
 
-★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{} / {}</code>
+» ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
+» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-𝙱𝙾𝚃 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 
+<u>🌺 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 📜</u>
 
-★ 𝚄𝙿𝚃𝙸𝙼𝙴: <code>{}</code>
-★ 𝚁𝙰𝙼: <code>{}%</code>
-★ 𝙲𝙿𝚄: <code>{}%</code></b>"""
+» ᴜᴘᴛɪᴍᴇ - <code>{}</code>
+» ʀᴀᴍ - <code>{}%</code>
+» ᴄᴘᴜ - <code>{}%</code></b>""""
 
     NEW_USER_TXT = """<b>#New_User {}
 
