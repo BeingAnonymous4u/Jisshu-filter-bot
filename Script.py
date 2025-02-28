@@ -22,9 +22,9 @@ Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a h
 
 ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code></b>"""
 
-    FORCESUB_TEXT="""<b>
-Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the File...😁
-नीचे दिए गए जॉइन लिंक पर क्लिक करें और 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 पर क्लिक करने के बाद 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 पर क्लिक करें, तो आपको फिल्म मिल जाएगी...🤩
+    FORCESUB_TEXT="""<b>👋 Hello
+
+Please join my 'Updates Channel' and try again. 😇
     </b>"""
     
     TTS_TXT="""
