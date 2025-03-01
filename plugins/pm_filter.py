@@ -1461,15 +1461,15 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-	InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}"),
+	InlineKeyboardButton("◖ ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ◗", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
             btn.insert(1, [
-        InlineKeyboardButton("Qᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
-	InlineKeyboardButton("Sᴇᴀꜱᴏɴ", callback_data=f"seasons#{key}#{offset}#{req}")
+        InlineKeyboardButton("• ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
+	InlineKeyboardButton("sᴇᴀsᴏɴ •", callback_data=f"seasons#{key}#{offset}#{req}")
       ])    
         else:
             btn.insert(0,[
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}")
+                InlineKeyboardButton("◖ ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ◗", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
                 InlineKeyboardButton("Nᴏ Nᴏʀᴇ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ", callback_data="pages")
@@ -1488,7 +1488,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         req = message.from_user.id if message.from_user else 0
         btn.append(
             [InlineKeyboardButton(text=f"1/{math.ceil(int(total_results) / int(MAX_BTN))}", callback_data="pages"),
-             InlineKeyboardButton(text="ɴᴇxᴛ ⪼", callback_data=f"next_{req}_{key}_{offset}")]
+             InlineKeyboardButton(text="ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{offset}")]
         )
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
