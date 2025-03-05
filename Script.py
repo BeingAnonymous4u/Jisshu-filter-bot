@@ -38,10 +38,12 @@ Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ 
 </b>"""
     
 
-    ABOUT_TEXT = """<b>🥱 My Name : Keerthy ♡ミ
-Library : Pyrogram 2.0.106
-Language : Python 
-Database : Mongodb</b>"""    
+    ABOUT_TEXT = """<b>🥱 ᴍʏ ɴᴀᴍᴇ : ғɪʟᴇs Bᴏᴛ 🇮🇳
+ 📚 ʟɪʙʀᴀʀʏ : </b><a href="https://docs.pyrogram.org/"><b>ᴘʏʀᴏɢʀᴀᴍ</b></a><b>
+ 📝 ʟᴀɴɢᴜᴀɢᴇ : </b><a href="https://www.python.org/download/releases/3.0/"><b>ᴘʏᴛʜᴏɴ 3</b></a><b>
+ ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : </b><a href="https://www.mongodb.com/"><b>ᴍᴏɴɢᴏ ᴅʙ</b></a><b>
+ 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : </b><a href="https://www.heroku.com/"><b>ʜᴇʀᴏᴋᴜ</b></a><b>
+ 🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ7.0.1 [sᴛᴀʙʟᴇ]</b>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
