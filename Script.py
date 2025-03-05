@@ -73,25 +73,24 @@ BOT WORKING PROPERLY 🔥"""
 </b>"""
         
     
-    STATUS_TXT = """<b><u>💐 ᴅᴀᴛᴀʙᴀsᴇ 1 💐</u>
+    STATUS_TXT = """<b>📃 ᴅᴀᴛᴀʙᴀsᴇ 1 🖥️
 
 » ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
 » ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
 » ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-<u>♻️ ᴅᴀᴛᴀʙᴀsᴇ 2 ♻️</u>
+♻️ ᴅᴀᴛᴀʙᴀsᴇ 2 ♻️
 
 » ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
 » ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-<u>🌺 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 📜</u>
+🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 📡
 
 » ᴜᴘᴛɪᴍᴇ - <code>{}</code>
 » ʀᴀᴍ - <code>{}%</code>
 » ᴄᴘᴜ - <code>{}%</code></b>"""
 
     NEW_USER_TXT = """<b>#New_User {}
-
 ≈ ɪᴅ:- <code>{}</code>
 ≈ ɴᴀᴍᴇ:- {}</b>"""
 
