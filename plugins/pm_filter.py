@@ -575,7 +575,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
                 callback_data=f"lang_search#{LANGUAGES[i+1].lower()}#{key}#0#{offset}#{req}"
             ),
                     ])
-    btn.append([InlineKeyboardButton(text="⪻ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴘᴀɢᴇ", callback_data=f"next_{req}_{key}_{offset}")])
+    btn.append([InlineKeyboardButton(text="👩‍🦯 Go Home Page 🏠", callback_data=f"next_{req}_{key}_{offset}")])
     await query.message.edit_text("<b>ɪɴ ᴡʜɪᴄʜ ʟᴀɴɢᴜᴀɢᴇ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ, ᴄʜᴏᴏsᴇ ғʀᴏᴍ ʜᴇʀᴇ ↓↓</b>", reply_markup=InlineKeyboardMarkup(btn))
     return
 
@@ -905,7 +905,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
               InlineKeyboardButton('F-Sᴜʙ', callback_data='fsub'),
               InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn')
               ], [
-              InlineKeyboardButton('⋞ Back To Home', callback_data='start')
+              InlineKeyboardButton('🏠 Home', callback_data='start')
               ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1450,9 +1450,9 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if settings["link"]:
         btn = []
         for file_num, file in enumerate(files, start=1):
-            links += f"""<b>\n\n{file_num}. <a href=https://t.me/{temp.U_NAME}?start={"pm_mode_" if pm_mode else ''}file_{ADMINS[0] if pm_mode else message.chat.id}_{file.file_id}>[{get_size(file.file_size)} | {formate_file_name(file.file_name)}</a></b>"""
+            links += f"""<b>\n\n{file_num}. <a href=https://t.me/{temp.U_NAME}?start={"pm_mode_" if pm_mode else ''}file_{ADMINS[0] if pm_mode else message.chat.id}_{file.file_id}>{get_size(file.file_size)} | {formate_file_name(file.file_name)}</a></b>"""
     else:
-        btn = [[InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)}≽ {formate_file_name(file.file_name)}", url=f'https://telegram.dog/{temp.U_NAME}?start=file_{message.chat.id}_{file.file_id}'),]
+        btn = [[InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ◾ {formate_file_name(file.file_name)}", url=f'https://telegram.dog/{temp.U_NAME}?start=file_{message.chat.id}_{file.file_id}'),]
                for file in files
               ]
     if offset != "":
@@ -1461,7 +1461,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
 	InlineKeyboardButton("🗣️ ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ 🗣️", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
             btn.insert(1, [
-        InlineKeyboardButton("⭐ ǫᴜᴀʟɪᴛʏ 🤩", callback_data=f"qualities#{key}#{offset}#{req}"),
+        InlineKeyboardButton("⭐ ǫᴜᴀʟɪᴛʏ ⭐", callback_data=f"qualities#{key}#{offset}#{req}"),
 	InlineKeyboardButton("🎭 sᴇᴀsᴏɴ 🎭", callback_data=f"seasons#{key}#{offset}#{req}")
       ])    
         else:
@@ -1469,7 +1469,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
                 InlineKeyboardButton("🗣️ ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ 🗣️", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
-                InlineKeyboardButton("Nᴏ Nᴏʀᴇ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ", callback_data="pages")
+                InlineKeyboardButton("♻️ Nᴏ Pᴀɢᴇs Aᴠᴀɪʟᴀʙʟᴇ ♻️", callback_data="pages")
             ])
     else:
         btn.insert(0,[
