@@ -208,7 +208,7 @@ async def start(client:Client, message):
             traceback.print_exc()
             pass
     if len(message.command) != 2:
-                     buttons = [[
+        buttons = [[
                             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
                             InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇ", url=f'https://t.me/+OV1c9JfMDn80NjQ1'),
