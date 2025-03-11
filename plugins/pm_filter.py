@@ -776,15 +776,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         online = f"{URL}watch/{log_msg.id}/{fileName}?hash={get_hash(log_msg)}"
         download = f"{URL}{log_msg.id}/{fileName}?hash={get_hash(log_msg)}"
         btn = [[
-            InlineKeyboardButton("🖥️ 𝖶𝖺𝗍𝖼𝗁 𝖮𝗇𝗅𝗂𝗇𝖾", url=online),
-            InlineKeyboardButton("𝖥𝖺𝗌𝗍 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 📥", url=download)
+            InlineKeyboardButton("𝖥𝖺𝗌𝗍 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 📥", url=download),
+            InlineKeyboardButton("🖥️ 𝖶𝖺𝗍𝖼𝗁 𝖮𝗇𝗅𝗂𝗇𝖾", url=online)
         ]]
         await query.edit_message_reply_markup(
         reply_markup=InlineKeyboardMarkup(btn)
 	)
         username = query.from_user.username
         await log_msg.reply_text(
-            text=f"#LinkGenrated\n\nIᴅ : <code>{user_id}</code>\nUꜱᴇʀɴᴀᴍᴇ : {username}\n\nNᴀᴍᴇ : {fileName}",
+            text=f"#LinkGenrated\n\nIᴅ : {user_id}\nUꜱᴇʀɴᴀᴍᴇ : {username}\n\nNᴀᴍᴇ : {fileName}",
             quote=True,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
@@ -807,15 +807,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton('🍂 ᴜᴘᴅᴀᴛᴇ 🍂', url=f'https://t.me/+Riemv1yReAAxN2I9'),
-                            InlineKeyboardButton('❤️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
+                            InlineKeyboardButton('🍂 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/+Riemv1yReAAxN2I9'),
+                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
                         ],[
-                            InlineKeyboardButton("👻 ʜᴇʟᴘ", callback_data='features'),
-                            InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data=f'about')
+                            InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
+                            InlineKeyboardButton('🕵️‍♀️ Aʙᴏᴜᴛ', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻',callback_data="reffff")
+                            InlineKeyboardButton('Pʀɪᴍɪᴜᴍ 🤑',callback_data="reffff")
 	                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -897,7 +897,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "features":
         buttons = [[
-              InlineKeyboardButton('Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs', callback_data='admincmd'),
+              InlineKeyboardButton('Aᴅᴍɪɴ Cᴍᴅ', callback_data='admincmd'),
               InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
               ], [
               InlineKeyboardButton('F-Sᴜʙ', callback_data='fsub'),
