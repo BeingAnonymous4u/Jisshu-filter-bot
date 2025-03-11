@@ -183,7 +183,7 @@ async def start(client:Client, message):
                         buttons = [[
                             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ 💰", callback_data='features'),
+                            InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇ", url=f'https://t.me/+OV1c9JfMDn80NjQ1'),
                             InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
                         ],[
                             InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
@@ -208,14 +208,17 @@ async def start(client:Client, message):
             traceback.print_exc()
             pass
     if len(message.command) != 2:
-        buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                     buttons = [[
+                            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻',callback_data="reffff")
+                            InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇ", url=f'https://t.me/+OV1c9JfMDn80NjQ1'),
+                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
-                        ]] 
+                            InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
+                            InlineKeyboardButton('🕵️‍♀️ Aʙᴏᴜᴛ', callback_data=f'about')
+                        ],[
+                            InlineKeyboardButton('Pʀɪᴍɪᴜᴍ 🤑',callback_data="reffff")
+	                    ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAEEJ3hnFmQgOBOMUWfmi3A0wu7u4dxX5gACdhEAAsMAASlJLbkjGWa6DogeBA") 
         await asyncio.sleep(1)
@@ -266,14 +269,17 @@ async def start(client:Client, message):
         return
 
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                   buttons = [[
+                            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data="reffff")
+                            InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇ", url=f'https://t.me/+OV1c9JfMDn80NjQ1'),
+                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
-                        ]] 
+                            InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
+                            InlineKeyboardButton('🕵️‍♀️ Aʙᴏᴜᴛ', callback_data=f'about')
+                        ],[
+                            InlineKeyboardButton('Pʀɪᴍɪᴜᴍ 🤑',callback_data="reffff")
+	                    ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
             reply_markup=reply_markup,
