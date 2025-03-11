@@ -181,16 +181,13 @@ async def start(client:Client, message):
          #       newPoint = await db.get_point(refUserId)
              if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇ", url=f'https://t.me/+OV1c9JfMDn80NjQ1'),
-                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
+                            InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻',callback_data="reffff")
                         ],[
-                            InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
-                            InlineKeyboardButton('🕵️‍♀️ Aʙᴏᴜᴛ', callback_data=f'about')
-                        ],[
-                            InlineKeyboardButton('Pʀɪᴍɪᴜᴍ 🤑',callback_data="reffff")
-	                    ]] 
+                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                        ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgIAAxkBAAEEJ3hnFmQgOBOMUWfmi3A0wu7u4dxX5gACdhEAAsMAASlJLbkjGWa6DogeBA") 
                         await asyncio.sleep(1)
