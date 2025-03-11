@@ -209,16 +209,17 @@ async def start(client:Client, message):
             pass
     if len(message.command) != 2:
         buttons = [[
-                            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇ", url=f'https://t.me/+OV1c9JfMDn80NjQ1'),
-                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
+                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
-                            InlineKeyboardButton('🕵️‍♀️ Aʙᴏᴜᴛ', callback_data=f'about')
+                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
+                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
-                            InlineKeyboardButton('Pʀɪᴍɪᴜᴍ 🤑',callback_data="reffff")
-	                    ]] 
+                            InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
+                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAEEJ3hnFmQgOBOMUWfmi3A0wu7u4dxX5gACdhEAAsMAASlJLbkjGWa6DogeBA") 
         await asyncio.sleep(1)
