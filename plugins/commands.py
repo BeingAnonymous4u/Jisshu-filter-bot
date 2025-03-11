@@ -184,11 +184,13 @@ async def start(client:Client, message):
                             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
                             InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ 💰", callback_data='features'),
-                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', callback_data=f'about')
+                            InlineKeyboardButton('🌿 Gʀᴏᴜᴘ', url=f'https://t.me/+cxIsUhfFPDFkMTc1')
                         ],[
                             InlineKeyboardButton("❗ Hᴇʟᴘ", callback_data='features'),
                             InlineKeyboardButton('🕵️‍♀️ Aʙᴏᴜᴛ', callback_data=f'about')
-                        ]] 
+                        ],[
+                            InlineKeyboardButton('Pʀɪᴍɪᴜᴍ 🤑',callback_data="reffff")
+	                    ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgIAAxkBAAEEJ3hnFmQgOBOMUWfmi3A0wu7u4dxX5gACdhEAAsMAASlJLbkjGWa6DogeBA") 
                         await asyncio.sleep(1)
