@@ -45,12 +45,19 @@ class script(object):
 </b>"""
     
 
-    ABOUT_TEXT = """<b>🥱 ᴍʏ ɴᴀᴍᴇ : ғɪʟᴇs Bᴏᴛ 🇮🇳
- 📚 ʟɪʙʀᴀʀʏ : </b><a href="https://docs.pyrogram.org/"><b>ᴘʏʀᴏɢʀᴀᴍ</b></a><b>
- 📝 ʟᴀɴɢᴜᴀɢᴇ : </b><a href="https://www.python.org/download/releases/3.0/"><b>ᴘʏᴛʜᴏɴ 3</b></a><b>
- ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : </b><a href="https://www.mongodb.com/"><b>ᴍᴏɴɢᴏ ᴅʙ</b></a><b>
- 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : </b><a href="https://www.heroku.com/"><b>ʜᴇʀᴏᴋᴜ</b></a><b>
- 🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ7.0.1 [sᴛᴀʙʟᴇ]</b>"""    
+    ABOUT_TEXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : </b><a href="https://t.me/UltraXRobot"><b>ғɪʟᴇs Bᴏᴛ 🇮🇳</b></a><b>
+
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : </b><a href="https://t.me/AllFilesRobot"><b>ᴇxᴘᴏʀᴛ</b></a><b>
+
+📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
+
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
+
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
+
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : </b><a href="https://t.me/+Riemv1yReAAxN2I9"><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</b></a><b>
+
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 5.0</b>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
