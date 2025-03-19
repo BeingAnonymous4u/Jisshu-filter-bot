@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/Kx3S0g9F/photo-2025-03-11-14-32-53-7480559911131152404.jpg https://i.ibb.co/MHcjHjr/photo-2025-03-11-14-44-06-7480562805939109908.jpg https://i.ibb.co/tpv1wMc1/photo-2025-03-11-14-46-11-7480563347104989200.jpg https://i.ibb.co/5XxnzrT6/photo-2025-03-11-14-47-51-7480563755126882324.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/MHcjHjr/photo-2025-03-11-14-44-06-7480562805939109908.jpg https://i.ibb.co/7tTtn8bk/photo-2025-03-07-23-42-19-7479224687403204612.jpg https://i.ibb.co/mCrrJGyW/photo-2025-03-19-01-48-22-7483331569491378200.jpg https://i.ibb.co/zVtNP4Wm/photo-2025-03-19-01-47-51-7483331444937326608.jpg https://i.ibb.co/B5FQYfxS/photo-2023-11-18-12-50-48-7483334537313779740.jpg https://i.ibb.co/Gm9FV3v/photo-2023-05-22-13-40-14-7483334442824499228.jpg https://i.ibb.co/YTF6zJ9n/photo-2023-05-22-13-39-46-7483334391284891672.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_Cz.jpg')).split()
