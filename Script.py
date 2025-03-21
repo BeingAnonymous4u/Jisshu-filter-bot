@@ -130,9 +130,11 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b><u>Fɪʟᴇɴᴀᴍᴇ</u> : {file_name}
-    
-</b><b><u>FɪʟᴇSize</u> : {file_size}
+    FILE_CAPTION = """<b>•────•────────•────•
+📁 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞: <a href="https://t.me/+1-nczPRJ5P5kNWY1"><b>{file_name}</b></a>
+
+  >> Size :  {file_size}
+•────•────────•────•
 </b>"""
     
 
